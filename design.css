@@ -5,6 +5,8 @@
 }
 
 .chicago-skyline {
+  height: 100%;
+  width: 100%;
   position: fixed;
   margin: 0 auto;
   padding: 0;

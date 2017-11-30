@@ -10,13 +10,11 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  bottom: 50%;
-  z-index: 100;
   text-align: center;
   vertical-align: middle;
 }
 
-h2 {
+h2.header {
   font-family: "Nirmala UI", sans-serif;
   color: white;
   font-weight: bold;
@@ -24,14 +22,14 @@ h2 {
   text-align: center;
 }
 
-p {
+p.header {
   font-family: "Nirmala UI Semilight", sans-serif;
   font-size: 16px;
   text-align: center;
   color: white;
 }
 
-.image-cropper {
+.header .image-cropper {
   height: 100px;
   width: 100px;
   border-radius: 50%;

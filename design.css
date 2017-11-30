@@ -1,21 +1,20 @@
 body {
   background-image: url("background.JPG");
   background-size: cover;
-  z-index: 0;
+  z-index: -1;
 }
 
 .header {
   
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
-  height: 500px;
-  width: 3000px;  
-  z-index: 50;
+  bottom: 50%;
+  z-index: 10;
 }
 
-h2.header {
+h2 {
   font-family: "Nirmala UI", sans-serif;
   color: white;
   font-weight: bold;
@@ -23,7 +22,7 @@ h2.header {
   text-align: center;
 }
 
-p.header {
+p {
   font-family: "Nirmala UI Semilight", sans-serif;
   font-size: 16px;
   text-align: center;
@@ -36,7 +35,7 @@ p.header {
   border-radius: 50%;
   overflow: hidden;
   text-align: center;  
-  z-index: 3;
+  z-index: 25;
   padding-top: 100px;
   padding-left: 50%;
   padding-right: 30%;

@@ -6,19 +6,29 @@
 }
 
 h2 {
-  font-family: "Nirmala UI Semilight", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: bold;
   font-size: 32px;
   text-align: center;
 }
 
 p {
-  font-family: "Nirmala UI Semilight", sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 16px;
   text-align: center;
 }
 
-img {
+.image-cropper {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  overflow: hidden;
   border-radius: 50%;
-  
+}
+
+img {
+  display: inline; 
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
 }

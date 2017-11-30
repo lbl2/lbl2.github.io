@@ -1,23 +1,27 @@
 body {
   background-image: url("background.JPG");
-  background-size: cover;
+  background-width: 3000px;
+  background-height: 1000px;
 }
 
 .header {
   position: fixed;
-  height: 50%;
-  width: 100%;  
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 500px;
+  width: 3000px;  
 }
 
-h2.header {
+h2 {
   font-family: "Nirmala UI", sans-serif;
-  color: white;
+  color: rbg(255, 255, 255);
   font-weight: bold;
   font-size: 32px;
   text-align: center;
 }
 
-p.header {
+p {
   color: white;
   font-family: "Nirmala UI Semilight", sans-serif;
   font-size: 16px;
@@ -25,16 +29,15 @@ p.header {
 }
 
 .image-cropper {
-  height:100px;
-  width: 100px;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
-  position: relative;
   overflow: hidden;
   text-align: center;  
   z-index: 3;
   padding-top: 100px;
   padding-left: 50%;
-  padding-right: 50%;
+  padding-right: 30%;
 }
 
 img {

@@ -20,18 +20,16 @@ p {
 
 .image-cropper {
   height:100px;
-  width: 100px;
+  width: 100%;
   position: relative;
   overflow: hidden;
-  border-radius: 15% 15% 15% 15%;
   padding-top: 20px;
   padding-left: 20px;
   
 }
 
 img {
-  display: inline; 
+  display: block; 
+  border: none;
   margin:  0 auto;
-  height: 100%;
-  width: auto;
 }

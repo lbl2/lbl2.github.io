@@ -13,21 +13,27 @@ body {
   bottom: 300px;
   text-align: center;
   vertical-align: middle;
-  color: white;
-  font-family: "Nirmala UI", sans-serif;
   text-align: center;
   vertical-align: middle;
 }
 
-h2.header {
+.name {
+  color: white;
+  font-family: "Nirmala UI", sans-serif;
   font-weight: bold;
   font-size: 32px;
   text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
 }
 
-p.header {
+.intro {
+  color: white;
+  font-family: "Nirmala UI", sans-serif;
   font-size: 16px;
+  line-height: 20px;
   text-align: center;
+  vertical-align: middle;
 }
 
 .image-cropper {

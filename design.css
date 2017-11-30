@@ -1,31 +1,33 @@
 body {
   background-image: url("background.JPG");
-  background-width: 3000px;
-  background-height: 1000px;
+  background-size: cover;
+  z-index: 0;
 }
 
 .header {
+  
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   height: 500px;
   width: 3000px;  
+  z-index: 50;
 }
 
-h2 {
+h2.header {
   font-family: "Nirmala UI", sans-serif;
-  color: rbg(255, 255, 255);
+  color: white;
   font-weight: bold;
   font-size: 32px;
   text-align: center;
 }
 
-p {
-  color: white;
+p.header {
   font-family: "Nirmala UI Semilight", sans-serif;
   font-size: 16px;
   text-align: center;
+  color: white;
 }
 
 .image-cropper {

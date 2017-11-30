@@ -12,24 +12,24 @@ body {
   left: 0;
   text-align: center;
   vertical-align: middle;
+  color: white;
+  font-family: "Nirmala UI", sans-serif;
+  text-align: center;
+  vertical-align: middle;
 }
 
 h2.header {
-  font-family: "Nirmala UI", sans-serif;
-  color: white;
   font-weight: bold;
   font-size: 32px;
   text-align: center;
 }
 
 p.header {
-  font-family: "Nirmala UI Semilight", sans-serif;
   font-size: 16px;
   text-align: center;
-  color: white;
 }
 
-.header .image-cropper {
+.image-cropper {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -37,9 +37,10 @@ p.header {
   text-align: center;  
   margin-top: 100px;
   vertical-align: middle;
+  z-index: 20;
 }
 
-img {
+img.image-cropper {
   display: block; 
   border: none;
   margin:  0 auto;

@@ -19,8 +19,8 @@ p {
 }
 
 .image-cropper {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -29,6 +29,6 @@ p {
 img {
   display: inline; 
   margin: 0 auto;
-  height: 100px;
+  height: 100%;
   width: auto;
 }

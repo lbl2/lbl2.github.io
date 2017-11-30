@@ -1,6 +1,6 @@
 .sidebar {
   position: fixed;
-  width: 500px;
+  width: 300px;
   height: 100%;
   background-color: coral; 
 }
@@ -20,4 +20,6 @@ p.sidebar {
 
 img.sidebar {
   border-radius: 50%;
+  max-height: 100px;
+  max-width: 100px;
 }

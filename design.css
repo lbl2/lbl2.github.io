@@ -1,7 +1,7 @@
 .sidebar {
   position: fixed;
-  width: 300px;
-  height: 1000px;
+  width: 400px;
+  height: 100%;
   background-color: coral; 
 }
 
@@ -19,8 +19,9 @@ p {
 }
 
 .image-cropper {
-  height:100px;
+  height:100%;
   width: 100%;
+  border-radius: 50%;
   position: relative;
   overflow: hidden;
   text-align: center;  

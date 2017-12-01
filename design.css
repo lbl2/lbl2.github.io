@@ -1,5 +1,5 @@
 .sidebar {
-  width: auto;
+  width: 500px;
   height: 100%;
   position: fixed;
   top: 0;
@@ -50,8 +50,8 @@ p {
 }
 
 .image-cropper {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   overflow: hidden;
   text-align: center; 

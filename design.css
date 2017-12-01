@@ -11,11 +11,11 @@ body {
   top: 200px;
   left: 0;
   right: 0;
-  vertical-align: middle;
+  z-index: 50;
 }
 
 h2.name {  
-  color: aliceblue;
+  color: AliceBlue;
   font-family: "Nirmala UI", sans-serif;
   font-weight: bold;
   font-size: 32px;
@@ -28,11 +28,12 @@ h2.name {
   height: 1000px;
   position: absolute;
   top: 200px;
-  vertical-align: middle
+  vertical-align: middle;
+  z-index: 50;
 }
 
-p {  
-  color: antiquewhite;
+p.info {  
+  color: AntiqueWhite;
   font-family: "Nirmala UI", sans-serif;
   font-size: 16px;
   line-height: 20px;

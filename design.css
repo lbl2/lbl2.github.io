@@ -1,11 +1,11 @@
 .sidebar {
-  width: 500px;
+  width: max-content;
   height: 100%;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
-  background-color: darkRed;
+  background-color: red4;
 }
 
 .name {
@@ -21,7 +21,7 @@
 }
 
 h2 {  
-  color: snow;
+  color: White;
   font-family: "Nirmala UI", sans-serif;
   font-weight: bold;
   font-size: 32px;
@@ -43,7 +43,7 @@ h2 {
 
 p {  
   font-family: "Nirmala UI", sans-serif;
-  color: lightYellow;
+  color: LightYellow;
   font-size: 12px;
   line-height: 14px;
   text-align: center;

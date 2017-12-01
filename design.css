@@ -1,35 +1,27 @@
-#bg {
+.sidebar {
+  width: auto;
+  height: 100%;
   position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-}
-
-#bg img{
-  position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
   bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
+  left: 0;
+  background-color: darkRed;
 }
 
 .name {
-  width: 100%;
+  width: auto;
   height: 50px;
-  position: absolute;
+  position: fixed;
   top: 200px;
   justify-content: center;
   justify-items: center;
   margin: auto;
   vertical-align: middle;
+  padding-bottom: 10px;
 }
 
 h2 {  
-  color: AliceBlue;
+  color: snow;
   font-family: "Nirmala UI", sans-serif;
   font-weight: bold;
   font-size: 32px;
@@ -38,21 +30,22 @@ h2 {
 }
 
 .info {
-  width: 100%;
+  width: auto;
   height: auto;
-  position: absolute;
+  position: fixed;
   top: 250px;
   vertical-align: middle;
   justify-content: center;
   justify-items: center;
+  padding-top: 20px;
   margin: auto;
 }
 
 p {  
   font-family: "Nirmala UI", sans-serif;
-  color: AntiqueWhite;
-  font-size: 16px;
-  line-height: 20px;
+  color: lightYellow;
+  font-size: 12px;
+  line-height: 14px;
   text-align: center;
 }
 
